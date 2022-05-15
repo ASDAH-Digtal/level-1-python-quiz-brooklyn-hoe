@@ -16,5 +16,13 @@ else:
 q2 = input(" Question 2)Which anime character is stronger? \n Luffy \n Naruto \n Asta \n Itadori.")
 
 if q2 == "Luffy":
+    print("thats correct you get one point")
     score += 1
-elif q2 == 
+elif q2 == "Naruto" or q2 == "Asta" or q2 == "Itadori":
+    print("Incorrect you lose a point")
+    score -= 1
+else:
+    print("Sorry thats not an option")
+    score -= 1
+
+
