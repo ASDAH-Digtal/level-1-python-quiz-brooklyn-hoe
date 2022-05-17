@@ -42,7 +42,7 @@ else:
     score -= 1
 
 #Question 4
-q4 = input(" Question 4) Who died first out of thease characters from naruto? \n Itachi \n Jiraiya \n Rin \n Kurama").lower()
+ q4 = input(" Question 4) Who died first out of thease characters from naruto? \n Itachi \n Jiraiya \n Rin \n Kurama").lower()
 
 if q4 == "rin":
     print("Thats correct you get one point")
@@ -53,4 +53,19 @@ elif q4 == "itachi" or q4 == "jiraiya" or q4 == "kurama":
 else:
     print("Sorry thats not an option")
     score -= 1
+
+#Question 5
+q5 = input(" Question 5) Who are the current four yonkos? \n Shanks, Big Mom, Kaido, Black Beard \n Shanks, Black Beard, Luffy, Kaido \n Naruto, Sasuke, Sakura, Kakashi \n Kaido, whitebeard, Big mom, Shanks").lower()
+
+if q5 == "shanks, big Mom, kaido, black beard":
+    print("Thats correct you get one point")
+    score += 1
+elif q5 == "Shanks, Black Beard, Luffy, Kaido" or q5 == "naruto, saskue, sakura, kakashi" or q5 == "kaido, whitebeard, big mom, shanks":
+    print("Incorrect you lose one point")
+    score -= 1
+else:
+    print("Sorry thats not an option")
+    score -= 1
+
+
 
