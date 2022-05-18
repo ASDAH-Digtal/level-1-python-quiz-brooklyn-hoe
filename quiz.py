@@ -67,6 +67,31 @@ else:
     print("Sorry thats not an option")
     score -= 1
 
-#question 6
+#Question 6
+q6 = input("Question 6) which anime character is weaker? \n Light Yagami \n Jin Mori \n Ussop \n Sakura").lower()
+
+if q6 == "light yagami":
+    print("Thats correct you get one point")
+    score += 1
+elif q6 == "jin mori" or q6 == "Ussop" or q6 == "Sakura":
+    print("Incorrect you lose one point")
+    score -= 1
+else:
+    print("Sorry thats not an option")
+    score -= 1
+
+#Question 7
+q7 = input("Question 7)how many episode are in one piece? \n 1000 \n 900 \n 500 \n Neither Its Still going").lower()
+
+if q7 == "neither its still going":
+    print("Thats correct you get one point")
+    score += 1
+elif q7 == "1000" or q7 == "900" or q7 == "500":
+    print("Incorrect you lose one point")
+    score -= 1
+else:
+    print("Sorry thats not an option")
+    score -= 1
+
 
 
