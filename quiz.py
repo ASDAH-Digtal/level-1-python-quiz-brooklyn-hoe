@@ -42,7 +42,7 @@ else:
     score -= 1
 
 #Question 4
- q4 = input(" Question 4) Who died first out of thease characters from naruto? \n Itachi \n Jiraiya \n Rin \n Kurama").lower()
+q4 = input(" Question 4) Who died first out of thease characters from naruto? \n Itachi \n Jiraiya \n Rin \n Kurama").lower()
 
 if q4 == "rin":
     print("Thats correct you get one point")
@@ -67,5 +67,6 @@ else:
     print("Sorry thats not an option")
     score -= 1
 
+#question 6
 
 
