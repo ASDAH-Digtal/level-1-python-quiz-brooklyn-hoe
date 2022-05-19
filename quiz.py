@@ -93,5 +93,16 @@ else:
     print("Sorry thats not an option")
     score -= 1
 
+#Question 7
+q8 = input("Question 8) who is a swordman out of thease characters? \n Kuroko \n Yami \n Loid \n Asta").lower()
 
+if q8 == "asta":
+    print("Thats correct you get one point")
+    score += 1
+elif q8 == "kuroko" or q8 == "yami" or q8 == "loid":
+    print("Incorrect you lose one point")
+    score -= 1
+else:
+    print("Sorry thats not an option")
+    score -= 1
 
