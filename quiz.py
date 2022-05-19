@@ -131,3 +131,6 @@ elif q10 == "kurokos basketball" or q10 == "attack on titans" or q10 == "death n
 else:
     print("Sorry thats not an option")
     score -= 1
+
+
+print(("your total score is {} ").format(score))
