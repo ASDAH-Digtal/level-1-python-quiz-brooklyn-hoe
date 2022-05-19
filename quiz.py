@@ -106,3 +106,28 @@ else:
     print("Sorry thats not an option")
     score -= 1
 
+#Question 9
+q9 = input("Question 9) which anime cost more to make? \n One Piece \n Pokemon \n Demon Slayer \n Jujustu Kaisen").lower()
+
+if q9 == "pokemon":
+    print("Thats correct you get one point")
+    score += 1
+elif q9 == "one piece" or q9 == "demon slayer" or q9 == "jujustu kaisen":
+    print("Incorrect you lose one point")
+    score -= 1
+else:
+    print("Sorry thats not an option")
+    score -= 1
+
+#Question 10
+q10 = input("Question 10) ").lower()
+
+if q9 == "":
+    print("Thats correct you get one point")
+    score += 1
+elif q9 == "one piece" or q9 == "" or q9 == "":
+    print("Incorrect you lose one point")
+    score -= 1
+else:
+    print("Sorry thats not an option")
+    score -= 1
