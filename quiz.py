@@ -120,12 +120,12 @@ else:
     score -= 1
 
 #Question 10
-q10 = input("Question 10) ").lower()
+q10 = input("Question 10) which anime is a action genre?  \n Kurokos Basketball \n Attack On Titans \n Jujustu Kaisen \n Death Note").lower()
 
-if q9 == "":
+if q10 == "jujustu kaisen":
     print("Thats correct you get one point")
     score += 1
-elif q9 == "one piece" or q9 == "" or q9 == "":
+elif q10 == "kurokos basketball" or q10 == "attack on titans" or q10 == "death note":
     print("Incorrect you lose one point")
     score -= 1
 else:
